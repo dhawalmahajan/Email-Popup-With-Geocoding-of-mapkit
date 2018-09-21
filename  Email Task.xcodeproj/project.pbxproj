@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B0AC2092064C034003146BC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0AC2082064C00E003146BC /* CoreLocation.framework */; };
+		8BE4AF582064233800D90DCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4AF572064233800D90DCD /* AppDelegate.m */; };
+		8BE4AF5B2064233800D90DCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4AF5A2064233800D90DCD /* ViewController.m */; };
+		8BE4AF5E2064233800D90DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE4AF5C2064233800D90DCD /* Main.storyboard */; };
+		8BE4AF602064233800D90DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE4AF5F2064233800D90DCD /* Assets.xcassets */; };
+		8BE4AF632064233800D90DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE4AF612064233800D90DCD /* LaunchScreen.storyboard */; };
+		8BE4AF662064233800D90DCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4AF652064233800D90DCD /* main.m */; };
+		8BE4AF702064233800D90DCD /* Inscript_email_TaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4AF6F2064233800D90DCD /* Inscript_email_TaskTests.m */; };
+		8BE4AF7B2064233800D90DCD /* Inscript_email_TaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4AF7A2064233800D90DCD /* Inscript_email_TaskUITests.m */; };
+		8BE4AF8A206423DC00D90DCD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE4AF89206423D100D90DCD /* MessageUI.framework */; };
+		8BE4AF8C206423EE00D90DCD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE4AF8B206423E400D90DCD /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BE4AF6C2064233800D90DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BE4AF4B2064233800D90DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BE4AF522064233800D90DCD;
+			remoteInfo = "Inscript email Task";
+		};
+		8BE4AF772064233800D90DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BE4AF4B2064233800D90DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BE4AF522064233800D90DCD;
+			remoteInfo = "Inscript email Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B0AC2082064C00E003146BC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8BE4AF532064233800D90DCD /* Inscript email Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inscript email Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE4AF562064233800D90DCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BE4AF572064233800D90DCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BE4AF592064233800D90DCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BE4AF5A2064233800D90DCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BE4AF5D2064233800D90DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BE4AF5F2064233800D90DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BE4AF622064233800D90DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BE4AF642064233800D90DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BE4AF652064233800D90DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BE4AF6B2064233800D90DCD /* Inscript email TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inscript email TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE4AF6F2064233800D90DCD /* Inscript_email_TaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Inscript_email_TaskTests.m; sourceTree = "<group>"; };
+		8BE4AF712064233800D90DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BE4AF762064233800D90DCD /* Inscript email TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inscript email TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE4AF7A2064233800D90DCD /* Inscript_email_TaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Inscript_email_TaskUITests.m; sourceTree = "<group>"; };
+		8BE4AF7C2064233800D90DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BE4AF89206423D100D90DCD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8BE4AF8B206423E400D90DCD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BE4AF502064233800D90DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0AC2092064C034003146BC /* CoreLocation.framework in Frameworks */,
+				8BE4AF8C206423EE00D90DCD /* MapKit.framework in Frameworks */,
+				8BE4AF8A206423DC00D90DCD /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE4AF682064233800D90DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE4AF732064233800D90DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BE4AF4A2064233800D90DCD = {
+			isa = PBXGroup;
+			children = (
+				8BE4AF552064233800D90DCD /* Inscript email Task */,
+				8BE4AF6E2064233800D90DCD /* Inscript email TaskTests */,
+				8BE4AF792064233800D90DCD /* Inscript email TaskUITests */,
+				8BE4AF542064233800D90DCD /* Products */,
+				8BE4AF88206423D000D90DCD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8BE4AF542064233800D90DCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BE4AF532064233800D90DCD /* Inscript email Task.app */,
+				8BE4AF6B2064233800D90DCD /* Inscript email TaskTests.xctest */,
+				8BE4AF762064233800D90DCD /* Inscript email TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BE4AF552064233800D90DCD /* Inscript email Task */ = {
+			isa = PBXGroup;
+			children = (
+				8BE4AF562064233800D90DCD /* AppDelegate.h */,
+				8BE4AF572064233800D90DCD /* AppDelegate.m */,
+				8BE4AF592064233800D90DCD /* ViewController.h */,
+				8BE4AF5A2064233800D90DCD /* ViewController.m */,
+				8BE4AF5C2064233800D90DCD /* Main.storyboard */,
+				8BE4AF5F2064233800D90DCD /* Assets.xcassets */,
+				8BE4AF612064233800D90DCD /* LaunchScreen.storyboard */,
+				8BE4AF642064233800D90DCD /* Info.plist */,
+				8BE4AF652064233800D90DCD /* main.m */,
+			);
+			path = "Inscript email Task";
+			sourceTree = "<group>";
+		};
+		8BE4AF6E2064233800D90DCD /* Inscript email TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BE4AF6F2064233800D90DCD /* Inscript_email_TaskTests.m */,
+				8BE4AF712064233800D90DCD /* Info.plist */,
+			);
+			path = "Inscript email TaskTests";
+			sourceTree = "<group>";
+		};
+		8BE4AF792064233800D90DCD /* Inscript email TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BE4AF7A2064233800D90DCD /* Inscript_email_TaskUITests.m */,
+				8BE4AF7C2064233800D90DCD /* Info.plist */,
+			);
+			path = "Inscript email TaskUITests";
+			sourceTree = "<group>";
+		};
+		8BE4AF88206423D000D90DCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AC2082064C00E003146BC /* CoreLocation.framework */,
+				8BE4AF8B206423E400D90DCD /* MapKit.framework */,
+				8BE4AF89206423D100D90DCD /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BE4AF522064233800D90DCD /* Inscript email Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BE4AF7F2064233800D90DCD /* Build configuration list for PBXNativeTarget "Inscript email Task" */;
+			buildPhases = (
+				8BE4AF4F2064233800D90DCD /* Sources */,
+				8BE4AF502064233800D90DCD /* Frameworks */,
+				8BE4AF512064233800D90DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Inscript email Task";
+			productName = "Inscript email Task";
+			productReference = 8BE4AF532064233800D90DCD /* Inscript email Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BE4AF6A2064233800D90DCD /* Inscript email TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BE4AF822064233800D90DCD /* Build configuration list for PBXNativeTarget "Inscript email TaskTests" */;
+			buildPhases = (
+				8BE4AF672064233800D90DCD /* Sources */,
+				8BE4AF682064233800D90DCD /* Frameworks */,
+				8BE4AF692064233800D90DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BE4AF6D2064233800D90DCD /* PBXTargetDependency */,
+			);
+			name = "Inscript email TaskTests";
+			productName = "Inscript email TaskTests";
+			productReference = 8BE4AF6B2064233800D90DCD /* Inscript email TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BE4AF752064233800D90DCD /* Inscript email TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BE4AF852064233800D90DCD /* Build configuration list for PBXNativeTarget "Inscript email TaskUITests" */;
+			buildPhases = (
+				8BE4AF722064233800D90DCD /* Sources */,
+				8BE4AF732064233800D90DCD /* Frameworks */,
+				8BE4AF742064233800D90DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BE4AF782064233800D90DCD /* PBXTargetDependency */,
+			);
+			name = "Inscript email TaskUITests";
+			productName = "Inscript email TaskUITests";
+			productReference = 8BE4AF762064233800D90DCD /* Inscript email TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BE4AF4B2064233800D90DCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Dhawal Mahajan";
+				TargetAttributes = {
+					8BE4AF522064233800D90DCD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					8BE4AF6A2064233800D90DCD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BE4AF522064233800D90DCD;
+					};
+					8BE4AF752064233800D90DCD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BE4AF522064233800D90DCD;
+					};
+				};
+			};
+			buildConfigurationList = 8BE4AF4E2064233800D90DCD /* Build configuration list for PBXProject "Inscript email Task" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BE4AF4A2064233800D90DCD;
+			productRefGroup = 8BE4AF542064233800D90DCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BE4AF522064233800D90DCD /* Inscript email Task */,
+				8BE4AF6A2064233800D90DCD /* Inscript email TaskTests */,
+				8BE4AF752064233800D90DCD /* Inscript email TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BE4AF512064233800D90DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE4AF632064233800D90DCD /* LaunchScreen.storyboard in Resources */,
+				8BE4AF602064233800D90DCD /* Assets.xcassets in Resources */,
+				8BE4AF5E2064233800D90DCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE4AF692064233800D90DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE4AF742064233800D90DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BE4AF4F2064233800D90DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE4AF5B2064233800D90DCD /* ViewController.m in Sources */,
+				8BE4AF662064233800D90DCD /* main.m in Sources */,
+				8BE4AF582064233800D90DCD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE4AF672064233800D90DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE4AF702064233800D90DCD /* Inscript_email_TaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE4AF722064233800D90DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE4AF7B2064233800D90DCD /* Inscript_email_TaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BE4AF6D2064233800D90DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BE4AF522064233800D90DCD /* Inscript email Task */;
+			targetProxy = 8BE4AF6C2064233800D90DCD /* PBXContainerItemProxy */;
+		};
+		8BE4AF782064233800D90DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BE4AF522064233800D90DCD /* Inscript email Task */;
+			targetProxy = 8BE4AF772064233800D90DCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BE4AF5C2064233800D90DCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BE4AF5D2064233800D90DCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BE4AF612064233800D90DCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BE4AF622064233800D90DCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BE4AF7D2064233800D90DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BE4AF7E2064233800D90DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BE4AF802064233800D90DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZ7FUS4T92;
+				INFOPLIST_FILE = "Inscript email Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhawal-Mahajan.Inscript-email-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BE4AF812064233800D90DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZ7FUS4T92;
+				INFOPLIST_FILE = "Inscript email Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhawal-Mahajan.Inscript-email-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BE4AF832064233800D90DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZ7FUS4T92;
+				INFOPLIST_FILE = "Inscript email TaskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhawal-Mahajan.Inscript-email-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inscript email Task.app/Inscript email Task";
+			};
+			name = Debug;
+		};
+		8BE4AF842064233800D90DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZ7FUS4T92;
+				INFOPLIST_FILE = "Inscript email TaskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhawal-Mahajan.Inscript-email-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inscript email Task.app/Inscript email Task";
+			};
+			name = Release;
+		};
+		8BE4AF862064233800D90DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZ7FUS4T92;
+				INFOPLIST_FILE = "Inscript email TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhawal-Mahajan.Inscript-email-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Inscript email Task";
+			};
+			name = Debug;
+		};
+		8BE4AF872064233800D90DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZ7FUS4T92;
+				INFOPLIST_FILE = "Inscript email TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhawal-Mahajan.Inscript-email-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Inscript email Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BE4AF4E2064233800D90DCD /* Build configuration list for PBXProject "Inscript email Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BE4AF7D2064233800D90DCD /* Debug */,
+				8BE4AF7E2064233800D90DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BE4AF7F2064233800D90DCD /* Build configuration list for PBXNativeTarget "Inscript email Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BE4AF802064233800D90DCD /* Debug */,
+				8BE4AF812064233800D90DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BE4AF822064233800D90DCD /* Build configuration list for PBXNativeTarget "Inscript email TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BE4AF832064233800D90DCD /* Debug */,
+				8BE4AF842064233800D90DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BE4AF852064233800D90DCD /* Build configuration list for PBXNativeTarget "Inscript email TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BE4AF862064233800D90DCD /* Debug */,
+				8BE4AF872064233800D90DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BE4AF4B2064233800D90DCD /* Project object */;
+}
